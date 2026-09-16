@@ -199,15 +199,21 @@ Based on continuous state-space trajectory logging across the 1,800 physical eva
 
 | File Path | Single Responsibility Description |
 | :--- | :--- |
-| `index.html` | High-density Cybernetic Bento Suite layout with zero-clipping golden ratio |
+| `models/cartpole_ppo.zip` | Trained official PyTorch / Stable-Baselines3 PPO policy weights archive |
+| `cartpole_weights.json` | Standalone zero-dependency PPO MLP weights `[Linear(4,64) ➔ Linear(64,64) ➔ Linear(64,2)]` for in-browser 60FPS JS inference |
+| `replay.mp4` | Official 1:1 square (720×720) high-definition video preview for Hugging Face model card |
+| `index.html` | High-density Cybernetic Bento Suite physical laboratory cockpit |
 | `style.css` | Neo-dark glassmorphic design system, responsive meters, and tactile controls |
 | `cartpole_sim.js` | 60FPS physics solver, PPO/LQR runtime, interactive drag perturbation & phase radar |
-| `cartpole_weights.json` | Exported PPO MLP neural weights `[Linear(4,64) ➔ Linear(64,64) ➔ Linear(64,2)]` |
-| `benchmark_experiments.py` | Automated 1,800-run empirical Sim-to-Real benchmark test pipeline |
 | `train.py` | PPO policy trainer (25K steps) with automated JS weight exporter |
-| `run.py` | Zero-dependency standalone application server and browser launcher |
-| `test_app.py` | 6-case automated test harness verifying weights, math, and asset integrity |
-| `deploy_to_hf.py` | One-click dual deployment automation for Hugging Face Spaces & Models |
+| `benchmark_experiments.py` | Automated 1,800-run empirical Sim-to-Real planetary benchmark test pipeline |
+| `benchmark_results.json` | Full quantitative evaluation metrics across 4 planets and 3 disturbance regimes |
+| `generate_trajectory_dataset.py` | 77,821-step high-frequency state-action-torque physical trajectory generator |
+| `cartpole_rl.ipynb` | Interactive Jupyter notebook for step-by-step training, analysis, and visualization |
+| `run.py` / `run_desktop.py` | Zero-dependency standalone application server and desktop GUI launcher |
+| `deploy_to_hf.py` | One-click triple deployment pipeline for Hugging Face Models, Spaces, and Datasets |
+| `LICENSE` | Official MIT open-source license |
+
 
 ---
 

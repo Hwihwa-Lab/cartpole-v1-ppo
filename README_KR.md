@@ -153,15 +153,21 @@ flowchart TB
 
 | 파일 경로 | 단일 책임 (Single Responsibility) |
 | :--- | :--- |
-| `index.html` | 무스크롤 황금분할 Cybernetic Bento 관제 레이아웃 정의 |
+| `models/cartpole_ppo.zip` | 학습 완료된 공식 PyTorch / Stable-Baselines3 PPO 정책 가중치 아카이브 |
+| `cartpole_weights.json` | 브라우저 내 60FPS 순수 JS 실시간 추론용 PPO MLP 신경망 가중치 `[Linear(4,64) ➔ Linear(64,64) ➔ Linear(64,2)]` |
+| `replay.mp4` | 허깅페이스 모델 페이지 전용 1:1 고화질(720×720) 비디오 프리뷰 영상 |
+| `index.html` | 무스크롤 황금분할 Cybernetic Bento 관제 레이아웃 |
 | `style.css` | 네오 다크모드 글래스모피즘, 반응형 게이지 및 햅틱 컨트롤 스타일 시스템 |
 | `cartpole_sim.js` | 60FPS 가변 물리 해석, PPO/LQR 제어기, 마우스 외란 및 위상 평면도 렌더러 |
-| `cartpole_weights.json` | 추출된 순수 PPO MLP 가중치 `[Linear(4,64) ➔ Linear(64,64) ➔ Linear(64,2)]` |
-| `benchmark_experiments.py` | 4대 행성 & 3대 외란 1,800회 전수 벤치마크 자동화 파이프라인 |
 | `train.py` | 25,000 스텝 PPO 학습기 및 웹 브라우저용 JSON 가중치 추출기 |
-| `run.py` | 브라우저 단독 앱 모드를 열어주는 무의존성 경량 로컬 서버 |
-| `test_app.py` | 가중치, 수학 연산, 에셋 무결성을 보장하는 6개 자동화 테스트 하네스 |
-| `deploy_to_hf.py` | 허깅페이스 Spaces(웹) 및 Models(가중치) 원클릭 동시 배포 스크립트 |
+| `benchmark_experiments.py` | 4대 행성 & 3대 외란 1,800회 전수 벤치마크 자동화 파이프라인 |
+| `benchmark_results.json` | 4대 행성 및 3대 외란 조건에 대한 1,800회 전수 평가 정량 데이터 |
+| `generate_trajectory_dataset.py` | 77,821 스텝의 고빈도 물리 궤적(Parquet/JSONL) 데이터셋 생성기 |
+| `cartpole_rl.ipynb` | 단계별 학습, 물리 벤치마크, 시각화를 위한 대화형 주피터 노트북 |
+| `run.py` / `run_desktop.py` | 브라우저 단독 앱 모드를 열어주는 무의존성 경량 로컬 서버 및 데스크톱 런처 |
+| `deploy_to_hf.py` | 허깅페이스 Models, Spaces, Datasets 원클릭 3중 동시 배포 스크립트 |
+| `LICENSE` | 공식 MIT 오픈소스 라이선스 |
+
 
 ---
 
