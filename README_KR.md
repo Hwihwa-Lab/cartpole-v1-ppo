@@ -9,10 +9,15 @@
 [![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-v2.0+-blue)](https://stable-baselines3.readthedocs.io/)
 [![Benchmark](https://img.shields.io/badge/Benchmark-1%2C800%20Episodes%20%7C%20100%25%20Solved-brightgreen)](#-실측-1800회-전수-벤치마크-실험-결과)
 [![GitHub](https://img.shields.io/badge/GitHub-cartpole--v1--ppo-181717?logo=github)](https://github.com/Hwihwa-Lab/cartpole-v1-ppo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Hwihwa-Lab/cartpole-v1-ppo/blob/main/LICENSE)
 
 > **"지구에서 학습된 강화학습 AI는 외계 행성의 중력 변화 속에서도 살아남을 수 있는가?"**  
-> 심층 신경망 강화학습 **PPO(Proximal Policy Optimization)**와 전통 현대 제어공학의 정점인 **최적 LQR(Linear Quadratic Regulator)**을 4개 우주 행성 중력 및 극한 외란 환경에서 비교 분석한 실측 피지컬 AI 벤치마크 스위트입니다.
+> 심층 신경망 강화학습 **PPO(Proximal Policy Optimization)**와 전통 현대 제어공학의 정점인 **최적 LQR(Linear Quadratic Regulator)**을 4개 우주 행성 중력 및 극한 외란 환경에서 비교 분석한 실측 피지컬 AI 벤치마크 스위트입니다.  
+> *[ 🌐 English Documentation ](README.md) | [ 🇰🇷 한국어 매뉴얼 ](README_KR.md) | [ 🎮 실시간 웹 시뮬레이터 라이브 데모 ](https://huggingface.co/spaces/hwihwalab/cartpole-v1-ppo)*
+
+> [!TIP]
+> 🎮 **브라우저에서 무설치 즉시 체험**: [👉 Hugging Face Spaces 라이브 데모 실행](https://huggingface.co/spaces/hwihwalab/cartpole-v1-ppo)  
+> 📦 **공식 모델 허브**: [🤗 hwihwalab/cartpole-v1-ppo](https://huggingface.co/hwihwalab/cartpole-v1-ppo) | 🐙 **GitHub 리포지토리**: [Hwihwa-Lab/cartpole-v1-ppo](https://github.com/Hwihwa-Lab/cartpole-v1-ppo)
 
 ---
 

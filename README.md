@@ -1,4 +1,7 @@
 ---
+language:
+- en
+- ko
 library_name: stable-baselines3
 tags:
 - reinforcement-learning
@@ -52,10 +55,15 @@ model-index:
 [![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-v2.0+-blue)](https://stable-baselines3.readthedocs.io/)
 [![Benchmark](https://img.shields.io/badge/Benchmark-1%2C800%20Episodes%20%7C%20100%25%20Solved-brightgreen)](#-empirical-benchmark-results-1800-episodes)
 [![GitHub](https://img.shields.io/badge/GitHub-cartpole--v1--ppo-181717?logo=github)](https://github.com/Hwihwa-Lab/cartpole-v1-ppo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Hwihwa-Lab/cartpole-v1-ppo/blob/main/LICENSE)
 
 > **"Can Earth-Trained Reinforcement Learning Policies Survive Extraterrestrial Gravitational Shifts?"**  
-> A high-precision Physical AI & Robotics Dynamics Benchmark comparing **Deep Neural PPO (Proximal Policy Optimization)** against **Classical Optimal LQR (Linear Quadratic Regulator)** across 4 planetary gravitational regimes and dynamic physical disturbances.
+> A high-precision Physical AI & Robotics Dynamics Benchmark comparing **Deep Neural PPO (Proximal Policy Optimization)** against **Classical Optimal LQR (Linear Quadratic Regulator)** across 4 planetary gravitational regimes and dynamic physical disturbances.  
+> *[ 🌐 English Documentation ](README.md) | [ 🇰🇷 한국어 매뉴얼 ](README_KR.md) | [ 🎮 Live Interactive Web Demo ](https://huggingface.co/spaces/hwihwalab/cartpole-v1-ppo)*
+
+> [!TIP]
+> 🎮 **Try Live in Browser (Zero Install)**: [👉 Open Hugging Face Spaces Live Demo](https://huggingface.co/spaces/hwihwalab/cartpole-v1-ppo)  
+> 📦 **Official Model Hub**: [🤗 hwihwalab/cartpole-v1-ppo](https://huggingface.co/hwihwalab/cartpole-v1-ppo) | 🐙 **GitHub Repository**: [Hwihwa-Lab/cartpole-v1-ppo](https://github.com/Hwihwa-Lab/cartpole-v1-ppo)
 
 ---
 
