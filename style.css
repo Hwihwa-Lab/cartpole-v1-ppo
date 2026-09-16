@@ -138,6 +138,53 @@ body {
   gap: 0.75rem;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.25rem;
+}
+
+.header-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 5px 11px;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+}
+
+.header-link-btn.hf-btn {
+  background: rgba(255, 210, 30, 0.12);
+  border: 1px solid rgba(255, 210, 30, 0.35);
+  color: #fbbf24;
+}
+
+.header-link-btn.hf-btn:hover {
+  background: rgba(255, 210, 30, 0.22);
+  border-color: #fbbf24;
+  box-shadow: 0 0 12px rgba(251, 191, 36, 0.35);
+  transform: translateY(-1px);
+}
+
+.header-link-btn.gh-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #f1f5f9;
+}
+
+.header-link-btn.gh-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
 .metric-pill {
   display: flex;
   align-items: center;
