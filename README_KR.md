@@ -163,10 +163,11 @@ flowchart TB
 | `benchmark_experiments.py` | 4대 행성 & 3대 외란 1,800회 전수 벤치마크 자동화 파이프라인 |
 | `benchmark_results.json` | 4대 행성 및 3대 외란 조건에 대한 1,800회 전수 평가 정량 데이터 |
 | `generate_trajectory_dataset.py` | 77,821 스텝의 고빈도 물리 궤적(Parquet/JSONL) 데이터셋 생성기 |
-| `cartpole_rl.ipynb` | 단계별 학습, 물리 벤치마크, 시각화를 위한 대화형 주피터 노트북 |
+
 | `run.py` / `run_desktop.py` | 브라우저 단독 앱 모드를 열어주는 무의존성 경량 로컬 서버 및 데스크톱 런처 |
 | `deploy_to_hf.py` | 허깅페이스 Models, Spaces, Datasets 원클릭 3중 동시 배포 스크립트 |
 | `LICENSE` | 공식 MIT 오픈소스 라이선스 |
+
 
 
 ---

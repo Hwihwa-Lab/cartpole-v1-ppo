@@ -36,3 +36,4 @@ DOCS_*.md
 MEMORY.md
 fixtures/
 test_app.py
+*.ipynb
