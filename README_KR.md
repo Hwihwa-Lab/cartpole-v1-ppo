@@ -19,10 +19,6 @@
 > 🎮 **브라우저에서 무설치 즉시 체험**: [👉 Hugging Face Spaces 라이브 데모 실행](https://huggingface.co/spaces/hwihwalab/cartpole-v1-ppo)  
 > 📦 **공식 모델 허브**: [🤗 hwihwalab/cartpole-v1-ppo](https://huggingface.co/hwihwalab/cartpole-v1-ppo) | 🐙 **GitHub 리포지토리**: [Hwihwa-Lab/cartpole-v1-ppo](https://github.com/Hwihwa-Lab/cartpole-v1-ppo)
 
-<p align="center">
-  <img src="assets/cartpole_disturbance_recovery.gif" width="100%" alt="CartPole Physical AI 외란 복원 물리 시뮬레이션 데모">
-</p>
-
 ---
 
 ## 🎮 인터랙티브 라이브 체험관 (Hugging Face Spaces)

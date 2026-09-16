@@ -65,10 +65,6 @@ model-index:
 > 🎮 **Try Live in Browser (Zero Install)**: [👉 Open Hugging Face Spaces Live Demo](https://huggingface.co/spaces/hwihwalab/cartpole-v1-ppo)  
 > 📦 **Official Model Hub**: [🤗 hwihwalab/cartpole-v1-ppo](https://huggingface.co/hwihwalab/cartpole-v1-ppo) | 🐙 **GitHub Repository**: [Hwihwa-Lab/cartpole-v1-ppo](https://github.com/Hwihwa-Lab/cartpole-v1-ppo)
 
-<p align="center">
-  <img src="assets/cartpole_disturbance_recovery.gif" width="100%" alt="CartPole Physical AI Disturbance Rejection Demo">
-</p>
-
 ---
 
 ## 🎮 Interactive Live Demo (Hugging Face Spaces)
