@@ -72,7 +72,34 @@ def deploy_spaces(api: Any, username: str, repo_name: str, token: str, current_d
                 repo_type="space",
                 token=token
             )
+
+    # Always ensure Space README has sdk: static configuration
+    space_readme = """---
+title: CartPole-v1 Physical AI Cybernetic Lab
+emoji: 🪐
+colorFrom: blue
+colorTo: indigo
+sdk: static
+pinned: false
+---
+
+# 🪐 CartPole-v1 Physical AI Interactive Cybernetic Lab
+
+Live interactive physics simulator for PPO Neural Policy vs Classical Optimal LQR.
+
+- 🤖 **Model Hub**: [hwihwalab/cartpole-v1-ppo](https://huggingface.co/hwihwalab/cartpole-v1-ppo)
+- 🐙 **GitHub**: [Hwihwa-Lab/cartpole-v1-ppo](https://github.com/Hwihwa-Lab/cartpole-v1-ppo)
+"""
+    api.upload_file(
+        path_or_fileobj=space_readme.encode("utf-8"),
+        path_in_repo="README.md",
+        repo_id=repo_id,
+        repo_type="space",
+        token=token
+    )
+
     print(f"[✓] Spaces deployment complete! Live at: https://huggingface.co/spaces/{repo_id}")
+
 
 def deploy_models(api: Any, username: str, repo_name: str, token: str, current_dir: Path, bundle_zip: str):
     repo_id = f"{username}/{repo_name}"
