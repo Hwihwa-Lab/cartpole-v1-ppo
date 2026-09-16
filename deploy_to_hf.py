@@ -33,7 +33,7 @@ def create_bundle_zip(current_dir: Path) -> str:
     include_files = [
         "index.html", "style.css", "cartpole_sim.js", "cartpole_weights.json",
         "train.py", "run.py", "run_desktop.py", "eval_info.json", "requirements.txt",
-        "README.md", "README_KR.md", "cartpole_rl.ipynb"
+        "README.md", "README_KR.md", "benchmark_experiments.py", "generate_trajectory_dataset.py"
     ]
     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for f in include_files:
