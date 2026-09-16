@@ -1,0 +1,284 @@
+{
+  "Trained PPO (20K)": {
+    "Moon (0.17g)": {
+      "Nominal (Clean)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.25,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.61,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.81,
+        "episodes": 50
+      }
+    },
+    "Mars (0.38g)": {
+      "Nominal (Clean)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.21,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.46,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.81,
+        "episodes": 50
+      }
+    },
+    "Earth (1.00g)": {
+      "Nominal (Clean)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.26,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.53,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.93,
+        "episodes": 50
+      }
+    },
+    "Jupiter (2.53g)": {
+      "Nominal (Clean)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.53,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.62,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 1.39,
+        "episodes": 50
+      }
+    }
+  },
+  "Optimal LQR": {
+    "Moon (0.17g)": {
+      "Nominal (Clean)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.21,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.37,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.91,
+        "episodes": 50
+      }
+    },
+    "Mars (0.38g)": {
+      "Nominal (Clean)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.22,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.34,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.92,
+        "episodes": 50
+      }
+    },
+    "Earth (1.00g)": {
+      "Nominal (Clean)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.2,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.29,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.99,
+        "episodes": 50
+      }
+    },
+    "Jupiter (2.53g)": {
+      "Nominal (Clean)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.2,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 0.27,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 500.0,
+        "std_score": 0.0,
+        "success_rate_pct": 100.0,
+        "mean_abs_theta_deg": 1.11,
+        "episodes": 50
+      }
+    }
+  },
+  "Undercooked PPO (2K)": {
+    "Moon (0.17g)": {
+      "Nominal (Clean)": {
+        "mean_score": 21.7,
+        "std_score": 10.7,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.58,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 16.4,
+        "std_score": 6.7,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.83,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 18.5,
+        "std_score": 7.0,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.99,
+        "episodes": 50
+      }
+    },
+    "Mars (0.38g)": {
+      "Nominal (Clean)": {
+        "mean_score": 21.7,
+        "std_score": 13.7,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.65,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 19.0,
+        "std_score": 12.7,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 5.15,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 20.8,
+        "std_score": 11.2,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.81,
+        "episodes": 50
+      }
+    },
+    "Earth (1.00g)": {
+      "Nominal (Clean)": {
+        "mean_score": 19.3,
+        "std_score": 5.4,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.53,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 16.5,
+        "std_score": 7.9,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.62,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 20.5,
+        "std_score": 9.8,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.65,
+        "episodes": 50
+      }
+    },
+    "Jupiter (2.53g)": {
+      "Nominal (Clean)": {
+        "mean_score": 18.6,
+        "std_score": 8.0,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.52,
+        "episodes": 50
+      },
+      "Wind Bias (+2.2N)": {
+        "mean_score": 13.9,
+        "std_score": 4.6,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.97,
+        "episodes": 50
+      },
+      "Sensor Noise (σ=0.05)": {
+        "mean_score": 15.6,
+        "std_score": 4.6,
+        "success_rate_pct": 0.0,
+        "mean_abs_theta_deg": 4.91,
+        "episodes": 50
+      }
+    }
+  }
+}

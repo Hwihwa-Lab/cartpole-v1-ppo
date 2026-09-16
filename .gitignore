@@ -1,0 +1,38 @@
+# ==============================================================================
+# Hwihwa Lab // Git Exclusion Rules
+# ==============================================================================
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Deployment Bundles & Local Datasets (Large Files)
+*.zip
+!models/*.zip
+data/
+write_*.py
+
+# ==============================================================================
+# 🛡️ PROPRIETARY AGENT GOVERNANCE & PROMPT RECIPES (LOCAL ONLY)
+# 아래 내부 통제 문서 및 하네스는 깃허브/허깅페이스 외부 공개에서 원천 차단됩니다.
+# ==============================================================================
+.cursorrules
+.agents/
+DOCS_*.md
+MEMORY.md
+fixtures/
+test_app.py
