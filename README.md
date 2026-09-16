@@ -131,14 +131,16 @@ flowchart TB
 All empirical data below were generated across **1,800 physical evaluation episodes** using our automated test harness (`benchmark_experiments.py`).
 
 ### 🪐 1. Planetary Zero-Shot Generalization (Clean Nominal Environment)
-| Controller | 🌙 Moon ($1.62\,\text{m/s}^2$) | 🔴 Mars ($3.72\,\text{m/s}^2$) | 🌍 Earth ($9.81\,\text{m/s}^2$) | 🪐 Jupiter ($24.79\,\text{m/s}^2$) | Mean Angle Error ($\overline{|\theta|}$) |
+
+| Controller | 🌙 Moon (1.62 m/s²) | 🔴 Mars (3.72 m/s²) | 🌍 Earth (9.81 m/s²) | 🪐 Jupiter (24.79 m/s²) | Mean Angle Error |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Trained PPO (20K)** | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | $0.26^\circ$ (Earth) / $0.53^\circ$ (Jupiter) |
-| **Optimal LQR (Riccati)** | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | $0.18^\circ$ (Earth) / $0.42^\circ$ (Jupiter) |
+| **Trained PPO (20K)** | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | 0.26° (Earth) / 0.53° (Jupiter) |
+| **Optimal LQR (Riccati)** | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | 0.18° (Earth) / 0.42° (Jupiter) |
 | **Undercooked PPO (2K)** | 21.7 (0%) | 21.7 (0%) | 19.3 (0%) | 18.6 (0%) | N/A (Premature Drop) |
 
-### 🌪️ 2. Environmental Stress & Robustness Benchmark (Earth Gravity: $9.81\,\text{m/s}^2$)
-| Controller | Nominal (Clean) | Wind Bias ($+2.2\,\text{N}$) | Sensor Noise ($\sigma=0.05$) | Combined Stress |
+### 🌪️ 2. Environmental Stress & Robustness Benchmark (Earth Gravity: 9.81 m/s²)
+
+| Controller | Nominal (Clean) | Wind Bias (+2.2N) | Sensor Noise (σ=0.05) | Combined Stress |
 | :--- | :---: | :---: | :---: | :---: |
 | **Trained PPO (20K)** | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) |
 | **Optimal LQR (Riccati)** | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) | **500.0** (100%) |
