@@ -191,15 +191,30 @@ python test_app.py
 
 ---
 
-## 🌐 휘화 로보틱스 생태계 로드맵
+## 👤 HWIHWA LAB 소개
 
-본 프로젝트는 **휘화 랩 피지컬 AI & 로보틱스 시리즈**의 핵심 포트폴리오입니다:
-1. 🍬 **Jelly Bean PlayEngine** · 10종의 MuJoCo 절차적 물리 브릭 & 로보틱스 아케이드 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/mujoco-physics-playengine) | [🤗 Model Hub](https://huggingface.co/hwihwalab/mujoco-physics-playengine))
-2. 🪐 **CartPole-v1 PPO** · 1D 고전 제어 역진자 균형 제어 & Sim-to-Real 행성 벤치마크 *(본 프로젝트)*
-3. 🚀 **LunarLander-v3 D3QN** · 2D 달 착륙선 복합 추진체 제어 & 벡터 동역학 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lunarlander-v3-d3qn) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lunarlander-v3-d3qn))
-4. 🕹️ **LeRobot Push-T** · 2D 텔레오퍼레이션 & Diffusion 모방 학습 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lerobot-pusht-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lerobot-pusht-teleop))
-5. 🤖 **LeRobot ALOHA Sim** · 양팔 로봇 정밀 매니퓰레이션 & 액추에이터 어레이 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/act-aloha-sim-transfer-cube) | [🤗 Model Hub](https://huggingface.co/hwihwalab/act-aloha-sim-transfer-cube))
-6. 🦆 **MicroDuck 14-DOF** · 3D 이족보행 디지털 트윈 실시간 조종석 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/microduck-3d-bipedal-teleop))
+> *“AI × Automation × Aesthetics — Crafting tools you'll love ✨”*
+
+**HWIHWA LAB**은 **실용적인 온디바이스 인텔리전스, 자율 운영 아키텍처, 그리고 세련된 미학(Aesthetics)**의 조화를 연구하고 구현하는 독립 AI 연구·엔지니어링 스튜디오입니다. 1인 창작자와 솔로프리뉴어가 번거로운 운영 부하에서 벗어나 본연의 창의성과 시간의 자유를 온전히 누릴 수 있도록 돕는 회복력 높은 시스템을 설계합니다.
+
+### 🔬 핵심 연구 및 엔지니어링 기둥
+
+- **체화된 AI 및 물리 동역학 (Embodied AI & Physical Dynamics)**: 물리 기반 강화학습(RL), 다체 기구학 및 자율 로보틱스 제어 두뇌(LQR, MPC, Pure Pursuit, Inverse Kinematics) 연구.
+- **제로 에셋 절차적 엔지니어링 (Zero-Asset Procedural Engineering)**: 무거운 텍스처나 모델 다운로드 없이 순수 코드와 수식만으로 3D 기하 구조 및 오디오를 실시간 합성하는 고효율 웹 아키텍처 설계.
+- **자율 의사결정 OS (Autonomous Decision OS)**: 복잡한 물리 환경을 위한 전두엽 스타일의 결정론적 추론 및 상태 머신 거버넌스 엔지니어링.
+- **인터랙티브 크리에이티브 미학 (Interactive Creative Aesthetics)**: 기능적 자동화와 감각적인 시각적 완성도, 현대적 디자인 철학을 융합한 매력적인 인터페이스 구축.
+
+### 🌐 피지컬 AI & 로보틱스 생태계 (Cross-Links)
+
+- **공식 허브**: [🤗 Hugging Face (@hwihwalab)](https://huggingface.co/hwihwalab)
+- **🚀 주요 로보틱스 & 피지컬 AI 프로젝트 제품군**:
+  1. 🍬 **Jelly Bean PlayEngine** · 10종의 MuJoCo 절차적 물리 브릭 & 로보틱스 아케이드 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/mujoco-physics-playengine) | [🤗 Model Hub](https://huggingface.co/hwihwalab/mujoco-physics-playengine))
+  2. 🪐 **CartPole-v1 PPO** · 1D 고전 제어 역진자 균형 제어 & Sim-to-Real 행성 벤치마크 *(본 프로젝트)*
+  3. 🚀 **LunarLander-v3 D3QN** · 2D 달 착륙선 복합 추진체 제어 & 벡터 동역학 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lunarlander-v3-d3qn) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lunarlander-v3-d3qn))
+  4. 🕹️ **LeRobot Push-T** · 2D 텔레오퍼레이션 & Diffusion 모방 학습 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lerobot-pusht-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lerobot-pusht-teleop))
+  5. 🤖 **LeRobot ALOHA Sim** · 양팔 로봇 정밀 매니퓰레이션 & 액추에이터 어레이 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/act-aloha-sim-transfer-cube) | [🤗 Model Hub](https://huggingface.co/hwihwalab/act-aloha-sim-transfer-cube))
+  6. 🦆 **MicroDuck 14-DOF** · 3D 이족보행 디지털 트윈 실시간 조종석 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/microduck-3d-bipedal-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/microduck-3d-bipedal-teleop))
+  7. 🍫 **인디 게임 스튜디오 의사결정 브레인**: [CHOCO-BRAIN-v1](https://huggingface.co/hwihwalab/connectailab-CHOCO-BRAIN-v1) — 1인 인디 게임 개발자 및 스튜디오 운영을 위한 온디바이스 전두엽 추론 피질 코어.
 
 ---
 
