@@ -114,7 +114,7 @@ flowchart TB
         TestSuite["Automated Test Harness (test_app.py - 6 Test Cases)"]
     end
 
-    subgraph Hub_Distribution ["🌐 Hugging Face Universal Deployment (deploy_to_hf.py)"]
+    subgraph Hub_Distribution ["🌐 Hugging Face Universal Deployment (Spaces & Models)"]
         Spaces["HF Spaces (Static SDK Zero-Latency Web Benchmark)"]
         Models["HF Model Hub (Weights, Benchmark JSON, Model Card)"]
     end
@@ -197,23 +197,20 @@ Based on continuous state-space trajectory logging across the 1,800 physical eva
 
 ## 📂 Repository Structure & Manifest
 
+The file hierarchy strictly mirrors the deployed [Hugging Face Model Hub (`hwihwalab/cartpole-v1-ppo`)](https://huggingface.co/hwihwalab/cartpole-v1-ppo/tree/main):
+
 | File Path | Single Responsibility Description |
 | :--- | :--- |
 | `models/cartpole_ppo.zip` | Trained official PyTorch / Stable-Baselines3 PPO policy weights archive |
 | `cartpole_weights.json` | Standalone zero-dependency PPO MLP weights `[Linear(4,64) ➔ Linear(64,64) ➔ Linear(64,2)]` for in-browser 60FPS JS inference |
-| `replay.mp4` | Official 1:1 square (720×720) high-definition video preview for Hugging Face model card |
-| `index.html` | High-density Cybernetic Bento Suite physical laboratory cockpit |
-| `style.css` | Neo-dark glassmorphic design system, responsive meters, and tactile controls |
-| `cartpole_sim.js` | 60FPS physics solver, PPO/LQR runtime, interactive drag perturbation & phase radar |
-| `train.py` | PPO policy trainer (25K steps) with automated JS weight exporter |
-| `benchmark_experiments.py` | Automated 1,800-run empirical Sim-to-Real planetary benchmark test pipeline |
-| `benchmark_results.json` | Full quantitative evaluation metrics across 4 planets and 3 disturbance regimes |
-| `generate_trajectory_dataset.py` | 77,821-step high-frequency state-action-torque physical trajectory generator |
-| `run.py` / `run_desktop.py` | Zero-dependency standalone application server and desktop GUI launcher |
-| `deploy_to_hf.py` | One-click triple deployment pipeline for Hugging Face Models, Spaces, and Datasets |
+| `cartpole_ppo_bundle.zip` | Complete standalone source bundle archive (web simulator, trainer, benchmarks & GUI launcher) |
+| `benchmark_results.json` | Full quantitative evaluation metrics across 4 planets and 3 disturbance regimes (1,800 runs) |
+| `eval_info.json` | Policy evaluation metadata, convergence criteria, and state normalization parameters |
+| `assets/cartpole_disturbance_recovery.gif` | 60FPS high-definition physical perturbation recovery preview animation |
+| `README.md` | Official English model card and empirical benchmark specification |
+| `README_KR.md` | Official Korean technical documentation |
 | `LICENSE` | Official MIT open-source license |
-
-
+| `.gitattributes` | Git Large File Storage (LFS) configuration for binary neural weights |
 
 ---
 
