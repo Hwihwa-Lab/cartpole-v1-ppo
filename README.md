@@ -2,15 +2,21 @@
 language:
 - en
 - ko
+pipeline_tag: reinforcement-learning
 library_name: stable-baselines3
+license: mit
+short_description: "CartPole-v1 1,800-Run Planetary Sim-to-Real Benchmark: Zero-Shot PPO vs Optimal LQR under 0.17g~2.53g Gravitational Perturbations by HWIHWA LAB."
 tags:
 - reinforcement-learning
+- reinforcement-learning-environments
 - deep-reinforcement-learning
 - ppo
 - proximal-policy-optimization
+- cartpole
 - cartpole-v1
 - gymnasium
 - openai-gym
+- gym
 - classic-control
 - robotics
 - physical-ai
@@ -19,13 +25,14 @@ tags:
 - domain-randomization
 - inverted-pendulum
 - optimal-control
+- lqr
 - lqr-control
 - control-theory
+- control-systems
 - stable-baselines3
 - pytorch
 - interactive-demo
-pipeline_tag: reinforcement-learning
-license: mit
+- hwihwalab
 model-index:
 - name: cartpole-v1-ppo
   results:
