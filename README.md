@@ -249,17 +249,13 @@ python test_app.py
 - **Autonomous Decision OS**: Engineering deterministic, prefrontal-cortex-style reasoning architectures and state machine governance for complex physical environments.
 - **Interactive Creative Aesthetics**: Fusing functional automation with refined visual craft and modern design philosophy to build delightful tools.
 
-### 🌐 Physical AI & Robotics Ecosystem (Cross-Links)
+### 🌐 Dynamic Balance & Physical AI Ecosystem (Cross-Links)
 
 - **Official Hub**: [🤗 Hugging Face (@hwihwalab)](https://huggingface.co/hwihwalab)
-- **🚀 Related Robotics & Physical AI Suite**:
-  1. 🍬 **Jelly Bean PlayEngine** · 10-in-1 MuJoCo WebAssembly Physics Bricks & Autonomous Robotics Arcade ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/mujoco-physics-playengine) | [🤗 Model Hub](https://huggingface.co/hwihwalab/mujoco-physics-playengine))
-  2. 🪐 **CartPole-v1 PPO** · 1D Classical Inverted Pendulum Dynamics & Planetary Sim-to-Real Benchmark *(Current Project)*
-  3. 🚀 **LunarLander-v3 D3QN** · 2D Dual-Thruster Lunar Descent & Vector Dynamics ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lunarlander-v3-d3qn) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lunarlander-v3-d3qn))
-  4. 🕹️ **LeRobot Push-T** · 2D Teleoperation & Diffusion Imitation Learning ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lerobot-pusht-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lerobot-pusht-teleop))
-  5. 🤖 **LeRobot ALOHA Sim** · Bimanual Robotic Manipulation & Actuator Array ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/act-aloha-sim-transfer-cube) | [🤗 Model Hub](https://huggingface.co/hwihwalab/act-aloha-sim-transfer-cube))
-  6. 🦆 **MicroDuck 14-DOF** · 3D Bipedal Digital Twin Real-Time Flight Deck ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/microduck-3d-bipedal-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/microduck-3d-bipedal-teleop))
-  7. 🍫 **Indie Game Studio Decision Brain**: [CHOCO-BRAIN-v1](https://huggingface.co/hwihwalab/connectailab-CHOCO-BRAIN-v1) — Edge prefrontal reasoning cortex for solo indie game creators & studio operations.
+- **🚀 Related Balance & Kinematics Suite**:
+  1. 🍬 **Jelly Bean PlayEngine** · 10-in-1 MuJoCo WebAssembly Physics Bricks & Robotics Sandbox ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/mujoco-physics-playengine) | [🤗 Model Hub](https://huggingface.co/hwihwalab/mujoco-physics-playengine)) — *Brick #07 Inverted Pendulum Balancer direct pair*
+  2. 🚀 **LunarLander-v3 D3QN** · 2D Dual-Thruster Lunar Descent & Vector Dynamics ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lunarlander-v3-d3qn) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lunarlander-v3-d3qn)) — *Gymnasium RL attitude control benchmark*
+  3. 🦆 **MicroDuck 14-DOF** · 3D Bipedal Digital Twin Real-Time Flight Deck ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/microduck-3d-bipedal-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/microduck-3d-bipedal-teleop)) — *Linear Inverted Pendulum Model (LIPM) bipedal robotics*
 
 ---
 

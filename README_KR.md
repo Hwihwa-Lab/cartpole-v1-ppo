@@ -204,17 +204,13 @@ python test_app.py
 - **자율 의사결정 OS (Autonomous Decision OS)**: 복잡한 물리 환경을 위한 전두엽 스타일의 결정론적 추론 및 상태 머신 거버넌스 엔지니어링.
 - **인터랙티브 크리에이티브 미학 (Interactive Creative Aesthetics)**: 기능적 자동화와 감각적인 시각적 완성도, 현대적 디자인 철학을 융합한 매력적인 인터페이스 구축.
 
-### 🌐 피지컬 AI & 로보틱스 생태계 (Cross-Links)
+### 🌐 동적 균형 제어 & 피지컬 AI 생태계 (Cross-Links)
 
 - **공식 허브**: [🤗 Hugging Face (@hwihwalab)](https://huggingface.co/hwihwalab)
-- **🚀 주요 로보틱스 & 피지컬 AI 프로젝트 제품군**:
-  1. 🍬 **Jelly Bean PlayEngine** · 10종의 MuJoCo 절차적 물리 브릭 & 로보틱스 아케이드 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/mujoco-physics-playengine) | [🤗 Model Hub](https://huggingface.co/hwihwalab/mujoco-physics-playengine))
-  2. 🪐 **CartPole-v1 PPO** · 1D 고전 제어 역진자 균형 제어 & Sim-to-Real 행성 벤치마크 *(본 프로젝트)*
-  3. 🚀 **LunarLander-v3 D3QN** · 2D 달 착륙선 복합 추진체 제어 & 벡터 동역학 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lunarlander-v3-d3qn) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lunarlander-v3-d3qn))
-  4. 🕹️ **LeRobot Push-T** · 2D 텔레오퍼레이션 & Diffusion 모방 학습 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lerobot-pusht-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lerobot-pusht-teleop))
-  5. 🤖 **LeRobot ALOHA Sim** · 양팔 로봇 정밀 매니퓰레이션 & 액추에이터 어레이 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/act-aloha-sim-transfer-cube) | [🤗 Model Hub](https://huggingface.co/hwihwalab/act-aloha-sim-transfer-cube))
-  6. 🦆 **MicroDuck 14-DOF** · 3D 이족보행 디지털 트윈 실시간 조종석 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/microduck-3d-bipedal-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/microduck-3d-bipedal-teleop))
-  7. 🍫 **인디 게임 스튜디오 의사결정 브레인**: [CHOCO-BRAIN-v1](https://huggingface.co/hwihwalab/connectailab-CHOCO-BRAIN-v1) — 1인 인디 게임 개발자 및 스튜디오 운영을 위한 온디바이스 전두엽 추론 피질 코어.
+- **🚀 직계 균형 제어 & 기구학 프로젝트 제품군**:
+  1. 🍬 **Jelly Bean PlayEngine** · 10종의 MuJoCo 절차적 물리 브릭 & 로보틱스 아케이드 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/mujoco-physics-playengine) | [🤗 Model Hub](https://huggingface.co/hwihwalab/mujoco-physics-playengine)) — *Brick #07 역진자 카트 밸런서 직접 연동*
+  2. 🚀 **LunarLander-v3 D3QN** · 2D 달 착륙선 복합 추진체 제어 & 벡터 동역학 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lunarlander-v3-d3qn) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lunarlander-v3-d3qn)) — *Gymnasium RL 2D 자세 제어 벤치마크*
+  3. 🦆 **MicroDuck 14-DOF** · 3D 이족보행 디지털 트윈 실시간 조종석 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/microduck-3d-bipedal-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/microduck-3d-bipedal-teleop)) — *선형 역진자 모델(LIPM) 기반 이족보행 로보틱스*
 
 ---
 
