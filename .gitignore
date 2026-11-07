@@ -25,6 +25,9 @@ Desktop.ini
 !models/*.zip
 data/
 write_*.py
+deploy_to_hf.py
+replay.mp4
+clean_and_sync_*.py
 
 # ==============================================================================
 # 🛡️ PROPRIETARY AGENT GOVERNANCE & PROMPT RECIPES (LOCAL ONLY)

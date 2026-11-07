@@ -193,12 +193,13 @@ python test_app.py
 
 ## 🌐 휘화 로보틱스 생태계 로드맵
 
-본 프로젝트는 휘화 랩 피지컬 AI & 로보틱스 시리즈의 기초 1단계에 해당합니다:
-1. **CartPole-v1 PPO** · 1D 고전 제어 역진자 균형 제어 & Sim-to-Real 벤치마크
-2. **LunarLander-v3 D3QN** · 2D 달 착륙선 복합 추진체 제어 & 벡터 동역학
-3. **LeRobot Push-T** · 2D 텔레오퍼레이션 & Diffusion 모방 학습
-4. **LeRobot ALOHA Sim** · 양팔 로봇 정밀 매니퓰레이션 & 액추에이터 어레이
-5. **MicroDuck 14-DOF** · 3D 이족보행 디지털 트윈 실시간 조종석
+본 프로젝트는 **휘화 랩 피지컬 AI & 로보틱스 시리즈**의 핵심 포트폴리오입니다:
+1. 🍬 **Jelly Bean PlayEngine** · 10종의 MuJoCo 절차적 물리 브릭 & 로보틱스 아케이드 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/mujoco-physics-playengine) | [🤗 Model Hub](https://huggingface.co/hwihwalab/mujoco-physics-playengine))
+2. 🪐 **CartPole-v1 PPO** · 1D 고전 제어 역진자 균형 제어 & Sim-to-Real 행성 벤치마크 *(본 프로젝트)*
+3. 🚀 **LunarLander-v3 D3QN** · 2D 달 착륙선 복합 추진체 제어 & 벡터 동역학 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lunarlander-v3-d3qn) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lunarlander-v3-d3qn))
+4. 🕹️ **LeRobot Push-T** · 2D 텔레오퍼레이션 & Diffusion 모방 학습 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lerobot-pusht-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lerobot-pusht-teleop))
+5. 🤖 **LeRobot ALOHA Sim** · 양팔 로봇 정밀 매니퓰레이션 & 액추에이터 어레이 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/act-aloha-sim-transfer-cube) | [🤗 Model Hub](https://huggingface.co/hwihwalab/act-aloha-sim-transfer-cube))
+6. 🦆 **MicroDuck 14-DOF** · 3D 이족보행 디지털 트윈 실시간 조종석 ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/microduck-3d-bipedal-teleop))
 
 ---
 

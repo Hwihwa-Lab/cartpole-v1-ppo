@@ -238,12 +238,13 @@ python test_app.py
 
 ## 🌐 Hwihwa Robotics Ecosystem Roadmap
 
-This project represents Foundation Stage 1 in the Hwihwa Lab Physical AI & Robotics Series:
-1. **CartPole-v1 PPO** · 1D Classical Inverted Pendulum Dynamics & Sim-to-Real Benchmark
-2. **LunarLander-v3 D3QN** · 2D Dual-Thruster Lunar Descent & Vector Dynamics
-3. **LeRobot Push-T** · 2D Teleoperation & Diffusion Imitation Learning
-4. **LeRobot ALOHA Sim** · Bimanual Robotic Manipulation & Actuator Array
-5. **MicroDuck 14-DOF** · 3D Bipedal Digital Twin Real-Time Flight Deck
+This project is part of the **HWIHWA LAB Physical AI & Robotics Series**:
+1. 🍬 **Jelly Bean PlayEngine** · 10-in-1 MuJoCo WebAssembly Physics Bricks & Autonomous Robotics Arcade ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/mujoco-physics-playengine) | [🤗 Model Hub](https://huggingface.co/hwihwalab/mujoco-physics-playengine))
+2. 🪐 **CartPole-v1 PPO** · 1D Classical Inverted Pendulum Dynamics & Planetary Sim-to-Real Benchmark *(Current Project)*
+3. 🚀 **LunarLander-v3 D3QN** · 2D Dual-Thruster Lunar Descent & Vector Dynamics ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lunarlander-v3-d3qn) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lunarlander-v3-d3qn))
+4. 🕹️ **LeRobot Push-T** · 2D Teleoperation & Diffusion Imitation Learning ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/lerobot-pusht-teleop) | [🤗 Model Hub](https://huggingface.co/hwihwalab/lerobot-pusht-teleop))
+5. 🤖 **LeRobot ALOHA Sim** · Bimanual Robotic Manipulation & Actuator Array ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/act-aloha-sim-transfer-cube) | [🤗 Model Hub](https://huggingface.co/hwihwalab/act-aloha-sim-transfer-cube))
+6. 🦆 **MicroDuck 14-DOF** · 3D Bipedal Digital Twin Real-Time Flight Deck ([🤗 Spaces](https://huggingface.co/spaces/hwihwalab/microduck-3d-bipedal-teleop))
 
 ---
 
